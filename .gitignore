@@ -1,0 +1,14 @@
+# Squad: ignore runtime state (logs, inbox, sessions)
+.squad/orchestration-log/
+.squad/log/
+.squad/decisions/inbox/
+.squad/sessions/
+.squad/.scratch/
+# Squad: SubSquad activation file (local to this machine)
+.squad-workstream
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+.env
+frontend/.env
+backend/.env
