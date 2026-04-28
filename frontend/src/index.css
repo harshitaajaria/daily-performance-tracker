@@ -561,6 +561,30 @@ body {
   font-size: 0.9rem;
 }
 
+/* Daily Quote */
+.daily-quote {
+  background: linear-gradient(135deg, #f8f9ff 0%, #f0f4ff 100%);
+  border-left: 3px solid #6c5ce7;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0 8px 8px 0;
+}
+
+.quote-text {
+  font-style: italic;
+  color: #4a5568;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+.quote-author {
+  text-align: right;
+  color: #6c5ce7;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
 .error-message {
   background: #fee;
   color: #c33;
